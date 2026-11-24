@@ -2,7 +2,7 @@
 
 A four-layer ESP32 development board designed in **KiCad 10** as a practical learning project. The board combines USB-C power and programming, automatic boot control, environmental sensing, motion sensing, GPIO expansion, and a PCB antenna-aware layout.
 
-![PCB routing overview](docs/images/02-pcb-routing.png)
+![3D view of the ESP32 learning board](docs/images/04-board-3d-viewer.png)
 
 ## Project Goals
 
@@ -60,7 +60,9 @@ The PCB uses the following four-layer structure:
 | `In2.Cu` | 3.3 V power plane |
 | `B.Cu` | Secondary routing and GND copper pour |
 
-The routing overview at the top of this README shows component placement, signal fan-out, vias, and the ESP32 module before the outer-layer copper fills are emphasized.
+The routing view below shows component placement, signal fan-out, vias, and the ESP32 module before the outer-layer copper fills are emphasized.
+
+![PCB routing overview](docs/images/02-pcb-routing.png)
 
 ## Grounding and Power Distribution
 
@@ -81,6 +83,10 @@ The filled-zone view also highlights several layout decisions:
 The ESP32-WROOM-32E is positioned at the edge of the carrier PCB. The antenna section extends beyond the `Edge.Cuts` boundary, and a multilayer keepout prevents copper and routing from entering the antenna region.
 
 This placement is intended to reduce detuning caused by the carrier PCB and nearby copper. The final enclosure should also keep metal, wiring, and batteries away from the antenna.
+
+## 3D Preview
+
+The 3D rendering at the top of this README is used to review component orientation, connector access, silkscreen readability, and the ESP32 antenna overhang. It also provides a quick mechanical check before generating manufacturing files or designing an enclosure.
 
 ## Current Status
 
