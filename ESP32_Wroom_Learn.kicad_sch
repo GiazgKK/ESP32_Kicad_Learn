@@ -7629,7 +7629,7 @@
 		)
 		(uuid "12db580f-6173-4dfd-a7d2-73f60921d100")
 	)
-	(label "USB_DM"
+	(label "USB_N"
 		(at 44.45 87.63 0)
 		(effects
 			(font
@@ -7639,7 +7639,7 @@
 		)
 		(uuid "1739e98d-fd92-41a5-bfbb-e06977180b73")
 	)
-	(label "USB_DP"
+	(label "USB_P"
 		(at 57.15 45.72 0)
 		(effects
 			(font
@@ -7689,7 +7689,7 @@
 		)
 		(uuid "1f21d0d9-e406-43bd-b0cd-b38a0d972298")
 	)
-	(label "USB_5V"
+	(label "USB_VBUS"
 		(at 50.8 27.94 0)
 		(effects
 			(font
@@ -7739,7 +7739,7 @@
 		)
 		(uuid "2d2cc6a1-570e-4a98-b567-3a146c239f10")
 	)
-	(label "USB_DP"
+	(label "USB_P"
 		(at 16.51 87.63 0)
 		(effects
 			(font
@@ -7799,7 +7799,7 @@
 		)
 		(uuid "347c6586-2259-4101-ac9f-281dca0e7252")
 	)
-	(label "USB_DM"
+	(label "USB_N"
 		(at 22.86 175.26 0)
 		(effects
 			(font
@@ -7879,7 +7879,7 @@
 		)
 		(uuid "4e4ff4a3-9cfb-4d70-94b1-79490ba61a86")
 	)
-	(label "USB_DP"
+	(label "USB_P"
 		(at 22.86 172.72 0)
 		(effects
 			(font
@@ -8030,7 +8030,7 @@
 		(uuid "64b8294a-d9f3-4b93-b668-3510945a70ae")
 	)
 	(label "MPU_INT"
-		(at 251.46 48.26 0)
+		(at 217.17 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8070,7 +8070,7 @@
 		(uuid "79fd3794-05f6-4d86-9c06-7c0d322c8a46")
 	)
 	(label "MPU_INT"
-		(at 173.99 97.79 180)
+		(at 173.99 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8079,7 +8079,7 @@
 		)
 		(uuid "7c3e88b7-4835-4306-9b44-65ae1f5c9017")
 	)
-	(label "USB_DM"
+	(label "USB_N"
 		(at 57.15 40.64 0)
 		(effects
 			(font
@@ -8110,7 +8110,7 @@
 		(uuid "7e6a7d55-915a-4d7a-ab1d-27ca49640aaa")
 	)
 	(label "GPIO16"
-		(at 217.17 40.64 0)
+		(at 251.46 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8189,7 +8189,7 @@
 		)
 		(uuid "9fe3483a-05d5-4654-b3ab-e9804fbac868")
 	)
-	(label "USB_5V"
+	(label "USB_VBUS"
 		(at 210.82 66.04 0)
 		(effects
 			(font
@@ -8209,7 +8209,7 @@
 		)
 		(uuid "a6b80fe3-dcce-4dc7-95f6-b4a1aae0f926")
 	)
-	(label "USB_5V"
+	(label "USB_VBUS"
 		(at 21.59 119.38 0)
 		(effects
 			(font
@@ -8330,7 +8330,7 @@
 		(uuid "d08d80b7-0039-4c2b-a6b4-439fb9931818")
 	)
 	(label "GPIO16"
-		(at 173.99 74.93 180)
+		(at 173.99 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12011,7 +12011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32E"
+		(property "Footprint" "ESP32_Wroom_Learn:ESP32-WROOM-32E_Custom"
 			(at 165.1 114.3 0)
 			(hide yes)
 			(show_name no)
